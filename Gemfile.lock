@@ -159,6 +159,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.9)
     minitest (5.17.0)
     msgpack (1.6.0)
     net-imap (0.3.4)
@@ -276,6 +277,8 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.6.9)
+      mini_portile2 (~> 2.8.0)
     temple (0.10.0)
     thor (1.2.1)
     thread_safe (0.3.6)
@@ -328,7 +331,7 @@ DEPENDENCIES
   hamlit
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  pg (>= 0.18, < 2.0)
+  pg
   pry-byebug
   puma (~> 4.1)
   rails (~> 6.0.6)
@@ -337,6 +340,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  sqlite3
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)
